@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: ariel sans-serif serif;
+	font-size: 2em;
+}
+#p{
+	margin: 50px 5px 5px 5px;
+	font-family: ariel sans-serif serif;
+}
+#p1{
+	text-align: center;
+	margin: 0;
+	background-color: coral;
+	font-family: ariel sans-serif serif;
+	font-size: 1.25em;
+}
+#p2{
+	text-align: center;
+	margin: 0;
+	background-color:cornflowerblue;
+ 	font-family: ariel sans-serif serif;
+	font-size: 1.25em;
+}
+#p3{
+	margin: 0;
+	text-align: center;
+	background-color: fuchsia;
+	font-family: ariel sans-serif serif;
+	font-size: 1.25em;
+}
+#sec{
+	border: 1px solid black;
+	width: 95%;
+	height: 200px;
+	margin: auto;
+	margin-bottom: 2.5%;
+	background-color: blanchedalmond;
+	overflow: auto;
+	position:relative;
+	clear:both;
+}
+.row{
+	width: 100%;
+}
+@media (min-width:992px){
+	.col-lg-4{
+		float: left;
+	}
+	.col-lg-4{
+		width: 33%;
+	}
+}
+@media (min-width:768px) and (max-width:991px ){
+	.col-md-6,.col-md-12{
+		float: left;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+#sectile{
+	width: 33%;
+	position:absolute;
+	right:0px ;
+}
