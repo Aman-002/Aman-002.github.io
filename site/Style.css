@@ -4,12 +4,14 @@
 }
 h1{
 	text-align: center;
-	margin-bottom: 15px;
+	margin-top: 40px;
+	margin-bottom: 25px;
 	font-family: ariel sans-serif serif;
 	font-size: 2em;
 }
 #p{
 	margin: 50px 5px 5px 5px;
+	padding: 5px;
 	font-family: ariel sans-serif serif;
 }
 #p1{
@@ -33,16 +35,17 @@ h1{
 	font-family: ariel sans-serif serif;
 	font-size: 1.25em;
 }
-#sec{
+.sec{
 	border: 1px solid black;
-	width: 95%;
 	height: 200px;
-	margin: auto;
+	margin-right:2.5%;
+	margin-left:2.5%;
 	margin-bottom: 2.5%;
-	background-color: blanchedalmond;
+	background-color:grey;
 	overflow: auto;
 	position:relative;
 	clear:both;
+}
 }
 .row{
 	width: 100%;
@@ -55,9 +58,20 @@ h1{
 		width: 33%;
 	}
 }
-@media (min-width:768px) and (max-width:991px ){
+@media (min-width:768px) and (max-width:991px){
 	.col-md-6,.col-md-12{
 		float: left;
+	}
+	#s3{
+		border: 1px solid black;
+		height: 200px;
+		margin-right:1.367%;
+		margin-left:1.367%;
+		margin-bottom: 2.5%;
+		background-color:grey;
+		overflow: auto;
+		position:relative;
+		clear:both;
 	}
 	.col-md-6{
 		width: 50%;
@@ -67,6 +81,7 @@ h1{
 	}
 }
 #sectile{
+	border: 1px solid black;
 	width: 33%;
 	position:absolute;
 	right:0px ;
