@@ -114,7 +114,10 @@ function buildAndShowHomeHTML (categories) {
       // $dc.loadMenuItems('L')
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
+<<<<<<< HEAD
       //
+=======
+>>>>>>> a380de59a0b2c90598b6486dcabab7543761639f
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,"randomCategoryShortName","'"+chosenCategoryShortName+"'");
 
 
@@ -133,7 +136,7 @@ function chooseRandomCategory (categories) {
   // Choose a random index into the array (from 0 inclusively until array length (exclusively))
   var randomArrayIndex = Math.floor(Math.random() * categories.length);
 
-  // return category object with that randomArrayIndex
+  // return category object with that randomArrayIndex.
   return categories[randomArrayIndex];
 }
 
